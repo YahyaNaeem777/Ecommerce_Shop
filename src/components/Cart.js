@@ -17,7 +17,7 @@ const Cart = () => {
             <h3>Continue Shopping</h3>
           </div>
           <div className="col-md-6 col-lg-6 col-sm-6 d-flex flex-row-reverse">
-            <ShoppingCartCheckoutIcon className="your_items" />
+            <ShoppingCartCheckoutIcon className="your_items"></ShoppingCartCheckoutIcon>
           </div>
         </div>
         <hr />

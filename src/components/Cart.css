@@ -18,7 +18,7 @@
 }
 
 .cart_items {
-    min-height: 10rem;
+    min-height: 8rem;
     /* border: 2px solid black; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -28,8 +28,17 @@
 
 }
 
+
+.cart_items .image {
+    min-height: 4rem;
+}
+
+/* .cart_items .col-sm-12 .image {
+    min-height: 8rem;
+} */
+
 .item_amount {
-    width: 3.3rem;
+    width: 2.9rem;
     height: 2rem;
 
 }

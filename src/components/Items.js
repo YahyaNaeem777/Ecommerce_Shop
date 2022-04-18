@@ -9,15 +9,15 @@ const Items = ({ name, description, price, img, amount }) => {
   return (
     <>
       <div className="row cart_items d-flex justify-content-between align-items-center gx-2">
-        <div className="col-lg-2 col-md-2 col-sm-12  d-flex align-items-center justify-content-center mb-4 ">
-          <img src={image} alt="Iphone" className="h-75" />
+        <div className="col-lg-2 col-md-2 col-sm-12  d-flex align-items-center justify-content-evenly mb-4 mt-2">
+          <img src={image} alt="Iphone" className="image" />
         </div>
-        <div className="col-lg-10 col-md-9 col-sm-12 d-flex justify-content-around">
-          <div className="col-lg-3 col-md-2 col-sm-3 d-flex flex-column">
+        <div className="col-lg-10 col-md-10 col-sm-12 d-flex justify-content-evenly align-items-center">
+          <div className="col-lg-3 col-md-3 col-sm-3 d-flex flex-column">
             <p className="text-danger">{name}</p>
             <p>Blue Color</p>
           </div>
-          <div className="col-lg-3 col-md-2 col-sm-3 d-flex">
+          <div className="col-lg-3 col-md-3 col-sm-3 d-flex">
             <RemoveIcon />
             <input
               type="text"
@@ -26,11 +26,11 @@ const Items = ({ name, description, price, img, amount }) => {
             />
             <AddIcon />
           </div>
-          <div className="col-lg-3 col-md-2 col-sm-3 d-flex flex-column">
+          <div className="col-lg-3 col-md-3 col-sm-4 d-flex flex-column">
             <h4>Price</h4>
             <h5>$1200</h5>
           </div>
-          <div className="col-lg-3 col-md-2 col-sm-3">
+          <div className="col-lg-3 col-md-1 col-sm-2">
             <CloseIcon />
           </div>
         </div>
