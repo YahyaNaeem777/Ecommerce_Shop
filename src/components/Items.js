@@ -15,7 +15,7 @@ const Items = ({ name, description, price, img, amount }) => {
         <div className="col-lg-10 col-md-10 col-sm-12 d-flex justify-content-evenly align-items-center">
           <div className="col-lg-3 col-md-3 col-sm-3 d-flex flex-column">
             <p className="text-danger">{name}</p>
-            <p>Blue Color</p>
+            <p>{description}</p>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-3 d-flex">
             <RemoveIcon />
@@ -28,7 +28,7 @@ const Items = ({ name, description, price, img, amount }) => {
           </div>
           <div className="col-lg-3 col-md-3 col-sm-4 d-flex flex-column">
             <h4>Price</h4>
-            <h5>$1200</h5>
+            <h5>{price}</h5>
           </div>
           <div className="col-lg-3 col-md-1 col-sm-2">
             <CloseIcon />

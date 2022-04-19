@@ -10,7 +10,7 @@ const Cart_api = [
   {
     id: 2,
     name: "iphone-13-pro",
-    description: "Silver Color",
+    description: "Black Color",
     price: "$1560",
     img: "./Images/Iphone/apple-iphone-13-pro.jpg",
     amount: 1,
