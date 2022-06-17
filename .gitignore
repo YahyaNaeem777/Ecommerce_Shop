@@ -6,6 +6,7 @@
 .pnp.js
 /.setupTests.js
 ./Images
+./Cart_api.js
 
 # testing
 /coverage
